@@ -1,4 +1,4 @@
-This repository provides the necessary scripts to reproduce the results and figures from paper "drivers_characteristics_MYDs". 
+This repository provides the necessary scripts to reproduce the results and figures from the paper "Contrasting Drivers of Single-Year and Multi-Year Droughts in Western Europe and Southern Africa". 
 It contains the following folders and content:
 
 a. Scripts:
