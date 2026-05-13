@@ -14,18 +14,18 @@ a. Scripts:
 	1_PET_PR_concat.py: Concatinates and calculates PR-12 and PET-12 over all models
  
 	2. Scripts to calculate the SVD, the SVD-timeseries, and other input files
-	2_calculate_SVD.py: Calculates the SVD patterns and timeseries
+	2_calculate_SVD.py: Calculates the SVD patterns and timeseries, plots Figure S5
 	2_create_areacello.py: Creates a file for weighted grid calculations
 	2_climate_indices.py: Calculates timeseries of known climate indices
 	2_std_anom.py: Calculates standardised anomalies of timeseries
 	
 	3. Scripts for figures
-	3_Regression.py: Figures 3 (boxplot), 5 (PR and PET anomalies), 6 (linear regressions)
-	3_SPEI12-06-03.py: Plots SPEI12, SPEI06, SPEI03, and SPEI01 to show development of MYDs. Results in Figure 4.
-	3_SPEI_figures.py: Makes figures of SPEI-12 per region. Results in Figure 2.
-	3_autocorrelation_trends.py: Makes plots for the lagged auto-correlation of SPEI-12, precipitation, and PET. Also plots the trends of all variables included in PET. Results in Figures 7 (lagged auto-correlations), and S11-16 (trends)
-	3_worldmaps_climate.py: Makes maps of climatology of PR, PET, number of MYDs, duration of MYDs, intensity of MYDs, fraction of months in MYDs compared to NDs. Results in Figures 1 and S1.
+	3_plot_regions.py: Figure 1
+	3_plot_drivers.py: Figures 3 and 4
+	3_lagged_corr.py: Figures 5, 6, S6, S7
+	3_strength_drivers.py: Figures 7 and 8
+	3_heatmap_MYDs.py: Figure S4
 
 b. Masks: 
 
-	Contains masks for central Argentina (ARG), Southeast Australia (AUS), California (CAL), India (IND), South Africa (SA), and Western Europe (WEU). All masks are based on (combinations of) river basins.
+	Contains masks for Southern Africa (SA) and Western Europe (WEU). All masks are based on (combinations of) river basins on a 1x1 grid.
