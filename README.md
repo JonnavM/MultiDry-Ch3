@@ -16,7 +16,7 @@ a. Scripts:
 	2. Scripts to calculate the SVD, the SVD-timeseries, and other input files
 	2_calculate_SVD.py: Calculates the SVD patterns and timeseries, plots Figure S5
 	2_create_areacello.py: Creates a file for weighted grid calculations
-	2_climate_indices.py: Calculates timeseries of known climate indices
+	2_climate_indices.py: Calculates timeseries of known climate indices and calculates correlations to SVD timeseries
 	2_std_anom.py: Calculates standardised anomalies of timeseries
 	
 	3. Scripts for figures
