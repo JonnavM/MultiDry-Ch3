@@ -7,10 +7,9 @@ a. Scripts:
 	0_functions.py: contains the functions to calculate the multi-year droughts (MYD), the normal droughts (ND), and creates masks for these droughts (mask_MYD and mask_ND). These functions are loaded in in the other scripts where necessary. 
  
 	1. Scripts to calculate PET and SPEI 
-	1_PenmanMonteith.py: Calculates PET with use of ERA5 data
-	1_PenmanMonteith_JRA.py: Calculates PET with use of JRA-3Q data
-	1_PenmanMonteith_MERRA.py: Calculates PET with use of MERRA-2 data
-	1_Calculate_SPEI.py: Calculates SPEI with use of PET and PR
+	1_detrend_data.py: Detrends different data field wrt the GMST
+	1_PenmanMonteith.py: Calculates PET with use of CMIP6 data
+	1_calculate_SPEI.py: Calculates SPEI with use of PET and PR
  
 	2. Scripts to validate data and results
 	2_compare_SPEI.py: Compares SPEI-12 between ERA5, MERRA-2, and JRA-3Q. Results in Figures S5-10.
