@@ -6,15 +6,18 @@ a. Scripts:
 	0. Scripts with functions 
 	0_functions.py: contains the functions to calculate the multi-year droughts (MYD), the normal droughts (ND), and creates masks for these droughts (mask_MYD and mask_ND). These functions are loaded in in the other scripts where necessary. 
  
-	1. Scripts to calculate PET and SPEI 
+	1. Scripts to calculate PET, SPEI and drought masks
 	1_detrend_data.py: Detrends different data field wrt the GMST
 	1_PenmanMonteith.py: Calculates PET with use of CMIP6 data
 	1_calculate_SPEI.py: Calculates SPEI with use of PET and PR
+	1_masks_MYD_ND.py: Creates masks for MYDs and NDs over time
+	1_PET_PR_concat.py: Concatinates and calculates PR-12 and PET-12 over all models
  
-	2. Scripts to validate data and results
-	2_compare_SPEI.py: Compares SPEI-12 between ERA5, MERRA-2, and JRA-3Q. Results in Figures S5-10.
-	2_compare_precipitation.py: Compares monthly precipitation between ERA5, CHIRPS, E-OBS, GPCP, CRU, and IMERG. Results in Figures S3 and S4.
-	2_variogram.py: Checks if size of focus region is appropriate. Results in Figure S2.
+	2. Scripts to calculate the SVD, the SVD-timeseries, and other input files
+	2_calculate_SVD.py: Calculates the SVD patterns and timeseries
+	2_create_areacello.py: Creates a file for weighted grid calculations
+	2_climate_indices.py: Calculates timeseries of known climate indices
+	2_std_anom.py: Calculates standardised anomalies of timeseries
 	
 	3. Scripts for figures
 	3_Regression.py: Figures 3 (boxplot), 5 (PR and PET anomalies), 6 (linear regressions)
