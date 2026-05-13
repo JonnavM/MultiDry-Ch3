@@ -3,7 +3,7 @@
 """
 Created on Wed Sep 10 10:30:32 2025
 
-@author: 6196306
+@author: Jonna van Mourik
 Simple figure with SA and WEU, including climatology
 """
 import xarray as xr
